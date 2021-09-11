@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* Modify the bootstrap color */
@@ -11,6 +13,10 @@
 .footer-custom {
    
     background-color: #85987763;
+}
+
+.button-custom{
+    border-radius: 100%;
 }
 
 
@@ -61,16 +67,19 @@ h6-style{
     font-size: 8px;
 }
 
-.background-img-1{
-    background-image: url(../imagenes/backgrounds/augustine-wong-T0BYurbDK_M-unsplash.jpg);
-    width: 100%;
-}
 
 .background-body-index{
     background-image: url(../img/background/augustine-wong-T0BYurbDK_M-unsplash.jpg);
     width: 100%;
 }
-
+.background-body-about{
+    background-image: url(../img/background/scott-webb-IzEf59tJq5c-unsplash.jpg);
+    width: 100%;
+}
+.background-body-login {
+background: url(../img/background/noah-basle-kqB7IDljjMI.jpg) ;
+    background-size: cover;
+}
 /**INDEX.HTML**/
 
 .logo-pulse img :hover{
@@ -141,4 +150,143 @@ h6-style{
     to {
      transform:scaleX(1);
    }
+}
+
+/*aboutus.html*/
+
+.background-img-1{
+    background-size: cover;
+    background-image: url(../img/background/pawel-czerwinski-qzaIDFtzcZ0-unsplash.jpg);
+    background-blend-mode: multiply;
+    padding-top: 140px;
+    padding-bottom: 260px;
+}
+
+.background__center_info { 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+
+}
+.background__center_info p {
+    font-family:'Open Sans ', sans-serif;
+    max-width: 40%;
+    font-style: normal;
+    text-align: justify;
+    color: #272727;
+
+}
+.table_team{
+    width: 50%;
+    padding: 5% 0%;
+    margin-left: 25% ;
+   
+}
+.table_team h2{ 
+    letter-spacing: 8px;
+    font-size: 20px;
+    color: #676666;
+    padding: 3px 0px 3% 3%;
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.table_team ol{
+    display: block;
+    margin-left: -100%; 
+    list-style: none;
+}
+.table_team h4{
+    display: inline-flexbox;
+    width: 80%;
+    text-align: left;
+    color: #fa7268;
+    margin-left: -100%;
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+.table_team img{
+    display: block;
+    padding: 2%;
+}
+
+/**LOGIN.HTML**/
+
+.container-login{
+    background: none;
+    background-size: cover;
+    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text, .box{
+    margin-top: 45vh;
+    flex: 1;
+}
+
+.text{
+    margin-left: 10%;
+    font-weight: 300px;
+}
+
+.box{
+    margin-left: 25%;
+}
+
+.text h1{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.text p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.text p a{
+    color: #fff;
+    font-weight: 700;
+}
+
+.form{
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+input{
+    margin: 20px 0;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.username, .password, .fullname, .email{
+    border-bottom: 1px solid #fff;
+}
+
+.button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 1000px;
+}
+
+.button:hover{
+    background: #fff;
+    color: #000;
 }
