@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Modify the background color */
+.navbar-custom {
+    background-image: linear-gradient(180deg, #4d6d428a 95%, #ff8c8400 100%);
+}
+.text-light-custom{
+    font-weight: bolder;
+    
+}
+
+h1-style{
+    font-family: 'Bad Script', cursive;
+    color: rgb(12, 12, 12); 
+    font-size: 40px;
+}
+
+h2-style{
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #fa7268c7; 
+    font-size: 22px;
+}
+
+h3-style{
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(87, 87, 87);
+    letter-spacing: 8px;
+    font-size: 18px;
+}
+
+h4-style{
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 15px;
+}
+
+p-style{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 13px;
+}
+
+h5-style{
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 10px;
+}
+
+h6-style{
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(100, 100, 100);
+    font-size: 8px;
+}
+
+.background-img-1{
+    background-image: url(../imagenes/backgrounds/augustine-wong-T0BYurbDK_M-unsplash.jpg);
+    width: 100%;
+}
+
+
+/**INDEX.HTML**/
+
+.background-body-index{
+    background-image: url(../img/background/augustine-wong-T0BYurbDK_M-unsplash.jpg);
+}
+
+
+.logo-pulse img :hover{
+    cursor: pointer;
+    animation-name: animate__pulse;
+    animation-iteration-count: infinite;
+    animation-duration: 1250ms;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
+    animation-timing-function:ease-in-out
+
+}
+
+@keyframes animate__pulse{
+ 
+        0% {
+         transform:scaleX(1);
+        }
+        50% {
+         transform:scale3d(1.05,1.05,1.05);
+        }
+        to {
+         transform:scaleX(1);
+       }
+}
+
+.centro-cta{
+    margin: 50% 0%;
+}
+
+.CTA__box_1{
+    
+    min-width: 100px;
+    min-height: 42px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    background: #f3aaa52f;
+    border-radius: 1000px;
+    outline: none;  
+    width: 150px;
+    border: 2px;
+    border-style: solid;
+    border-color: #fa7268;
+    font-size: 11px;
+    transition: background-color 0.8s ease-out;
+    font-family: 'Open Sans', sans-serif;
+}
+.CTA__box_1:hover {
+    min-width: 100px;
+    min-height: 42px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    background: #fa7268;    
+    border-radius: 1000px;
+    outline: none;
+    border: 2px;
+    border-style: solid;
+    border-color: #fa7268;
+    color: #f1f1f1;
+    font-size: 10px;
+    cursor:pointer;
+    animation-name: animate__pulse;
+    animation-iteration-count: infinite;
+    animation-duration: 1250ms;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
+    animation-timing-function:ease-in-out
+    
+}
