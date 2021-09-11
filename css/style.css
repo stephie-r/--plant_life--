@@ -21,13 +21,12 @@ h2-style{
     color: #fa7268c7; 
     font-size: 22px;
 }
+.ls-4{
+    letter-spacing: 4px;
+}
 
-h3-style{
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(87, 87, 87);
+.ls-8{
     letter-spacing: 8px;
-    font-size: 18px;
 }
 
 h4-style{
