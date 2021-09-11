@@ -289,4 +289,10 @@ input{
 .button:hover{
     background: #fff;
     color: #000;
+    animation-name: animate__pulse;
+    animation-iteration-count: infinite;
+    animation-duration: 2550ms;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
+    animation-timing-function:ease-in-out
 }
