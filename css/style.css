@@ -3,9 +3,14 @@
     padding: 0;
 }
 
-/* Modify the background color */
+/* Modify the bootstrap color */
 .navbar-custom {
-    background-image: linear-gradient(180deg, #4d6d428a 95%, #ff8c8400 100%);
+    background-image: linear-gradient(180deg, #4d6d42a1 95%, #ff8c8400 100%);
+}
+
+.footer-custom {
+   
+    background-color: #85987763;
 }
 
 
@@ -61,13 +66,12 @@ h6-style{
     width: 100%;
 }
 
-
-/**INDEX.HTML**/
-
 .background-body-index{
     background-image: url(../img/background/augustine-wong-T0BYurbDK_M-unsplash.jpg);
+    width: 100%;
 }
 
+/**INDEX.HTML**/
 
 .logo-pulse img :hover{
     cursor: pointer;
@@ -80,27 +84,14 @@ h6-style{
 
 }
 
-@keyframes animate__pulse{
- 
-        0% {
-         transform:scaleX(1);
-        }
-        50% {
-         transform:scale3d(1.05,1.05,1.05);
-        }
-        to {
-         transform:scaleX(1);
-       }
-}
-
 .centro-cta{
     margin: 50% 0%;
 }
 
 .CTA__box_1{
-    
+    font-family: 'Open Sans', sans-serif;;
     min-width: 100px;
-    min-height: 42px;
+    min-height: 45px;
     text-transform: uppercase;
     letter-spacing: 0.2px;
     font-weight: 500;
@@ -113,11 +104,11 @@ h6-style{
     border-color: #fa7268;
     font-size: 11px;
     transition: background-color 0.8s ease-out;
-    font-family: 'Open Sans', sans-serif;
 }
 .CTA__box_1:hover {
+    font-family: 'Open Sans', sans-serif;;
     min-width: 100px;
-    min-height: 42px;
+    min-height: 45px;
     text-transform: uppercase;
     letter-spacing: 0.2px;
     font-weight: 500;
@@ -128,7 +119,7 @@ h6-style{
     border-style: solid;
     border-color: #fa7268;
     color: #f1f1f1;
-    font-size: 10px;
+    font-size: 11px;
     cursor:pointer;
     animation-name: animate__pulse;
     animation-iteration-count: infinite;
@@ -137,4 +128,17 @@ h6-style{
     animation-delay: 0ms;
     animation-timing-function:ease-in-out
     
+}
+
+@keyframes animate__pulse{
+ 
+    0% {
+     transform:scaleX(1);
+    }
+    50% {
+     transform:scale3d(1.05,1.05,1.05);
+    }
+    to {
+     transform:scaleX(1);
+   }
 }
