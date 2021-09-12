@@ -18,7 +18,9 @@
 .button-custom{
     border-radius: 100%;
 }
-
+.br-custom-img{
+    border-radius: 1000px;
+}
 
 h1-style{
     font-family: 'Bad Script', cursive;
