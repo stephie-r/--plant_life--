@@ -1,11 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
 
-/* Modify the bootstrap color */
+/* Modify the bootstrap */
 .navbar-custom {
     background-image: linear-gradient(180deg, #4d6d42a1 95%, #ff8c8400 100%);
 }
@@ -20,53 +14,6 @@
 }
 .br-custom-img{
     border-radius: 1000px;
-}
-
-h1-style{
-    font-family: 'Bad Script', cursive;
-    color: rgb(12, 12, 12); 
-    font-size: 40px;
-}
-
-h2-style{
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    color: #fa7268c7; 
-    font-size: 22px;
-}
-.ls-4{
-    letter-spacing: 4px;
-}
-
-.ls-8{
-    letter-spacing: 8px;
-}
-
-h4-style{
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    color: #333;
-    font-size: 15px;
-}
-
-p-style{
-    font-family: 'Open Sans', sans-serif;
-    color: #333;
-    font-size: 13px;
-}
-
-h5-style{
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    color: #333;
-    font-size: 10px;
-}
-
-h6-style{
-    font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(100, 100, 100);
-    font-size: 8px;
 }
 
 
@@ -90,77 +37,7 @@ background: url(../img/background/noah-basle-kqB7IDljjMI.jpg) ;
     border-radius: 100px;
     background-color: #676666;
 }
-/**INDEX.HTML**/
 
-.logo-pulse img :hover{
-    cursor: pointer;
-    animation-name: animate__pulse;
-    animation-iteration-count: infinite;
-    animation-duration: 1250ms;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0ms;
-    animation-timing-function:ease-in-out
-
-}
-
-.centro-cta{
-    margin: 50% 0%;
-}
-
-.CTA__box_1{
-    font-family: 'Open Sans', sans-serif;;
-    min-width: 100px;
-    min-height: 45px;
-    text-transform: uppercase;
-    letter-spacing: 0.2px;
-    font-weight: 500;
-    background: #f3aaa52f;
-    border-radius: 1000px;
-    outline: none;  
-    width: 150px;
-    border: 2px;
-    border-style: solid;
-    border-color: #fa7268;
-    font-size: 11px;
-    transition: background-color 0.8s ease-out;
-}
-.CTA__box_1:hover {
-    font-family: 'Open Sans', sans-serif;;
-    min-width: 100px;
-    min-height: 45px;
-    text-transform: uppercase;
-    letter-spacing: 0.2px;
-    font-weight: 500;
-    background: #fa7268;    
-    border-radius: 1000px;
-    outline: none;
-    border: 2px;
-    border-style: solid;
-    border-color: #fa7268;
-    color: #f1f1f1;
-    font-size: 11px;
-    cursor:pointer;
-    animation-name: animate__pulse;
-    animation-iteration-count: infinite;
-    animation-duration: 1250ms;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0ms;
-    animation-timing-function:ease-in-out
-    
-}
-
-@keyframes animate__pulse{
- 
-    0% {
-     transform:scaleX(1);
-    }
-    50% {
-     transform:scale3d(1.05,1.05,1.05);
-    }
-    to {
-     transform:scaleX(1);
-   }
-}
 
 /*aboutus.html*/
 
@@ -187,41 +64,7 @@ background: url(../img/background/noah-basle-kqB7IDljjMI.jpg) ;
     color: #272727;
 
 }
-.table_team{
-    width: 50%;
-    padding: 5% 0%;
-    margin-left: 25% ;
-   
-}
-.table_team h2{ 
-    letter-spacing: 8px;
-    font-size: 20px;
-    color: #676666;
-    padding: 3px 0px 3% 3%;
-    font-weight: 200;
-    font-family: 'Open Sans', sans-serif;
 
-
-}
-.table_team ol{
-    display: block;
-    margin-left: -100%; 
-    list-style: none;
-}
-.table_team h4{
-    display: inline-flexbox;
-    width: 80%;
-    text-align: left;
-    color: #fa7268;
-    margin-left: -100%;
-    font-family: 'Open Sans', sans-serif;
-
-    
-}
-.table_team img{
-    display: block;
-    padding: 2%;
-}
 
 /**LOGIN.HTML**/
 

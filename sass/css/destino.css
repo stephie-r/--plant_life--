@@ -1,0 +1,217 @@
+/*sintaxis de css*/
+/*****RESET*****/
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+/** TIPOGRAFIA**/
+.ls-2 {
+  letter-spacing: 2px; }
+
+.ls-4 {
+  letter-spacing: 4px; }
+
+.ls-8 {
+  letter-spacing: 8px; }
+
+.ls-10 {
+  letter-spacing: 10px; }
+
+/******NESTING*****/
+/*****NAV****/
+.logo-pulse img :hover {
+  cursor: pointer;
+  animation-name: animate__pulse;
+  animation-iteration-count: infinite;
+  animation-duration: 1250ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out; }
+
+/******INDEX*****/
+.centro-cta {
+  margin: 50% 0%; }
+  .centro-cta .CTA__box_1 {
+    font-family: 'Open Sans', sans-serif;
+    min-width: 100px;
+    min-height: 45px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    background: #f3aaa52f;
+    border-radius: 1000px;
+    outline: none;
+    width: 150px;
+    border: 2px;
+    border-style: solid;
+    border-color: #fa7268;
+    font-size: 11px;
+    transition: background-color 0.8s ease-out; }
+
+.CTA__box_1:hover {
+  font-family: 'Open Sans', sans-serif;
+  min-width: 100px;
+  min-height: 45px;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  background: #fa7268;
+  border-radius: 1000px;
+  outline: none;
+  border: 2px;
+  border-style: solid;
+  border-color: #fa7268;
+  color: #f1f1f1;
+  font-size: 11px;
+  cursor: pointer;
+  animation-name: animate__pulse;
+  animation-iteration-count: infinite;
+  animation-duration: 1250ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out; }
+
+/******ABOUT US*****/
+.background-img-1 {
+  background-size: cover;
+  background-image: url(../img/background/pawel-czerwinski-qzaIDFtzcZ0-unsplash.jpg);
+  background-blend-mode: multiply;
+  padding-top: 140px;
+  padding-bottom: 260px; }
+
+.background__center_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .background__center_info p {
+    font-family: 'Open Sans ', sans-serif;
+    max-width: 40%;
+    font-style: normal;
+    text-align: justify;
+    color: #272727; }
+
+.btn-light-pink {
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  min-width: 100px;
+  min-height: 45px;
+  background: #f3aaa52f;
+  border-radius: 1000px;
+  outline: none;
+  width: 150px;
+  border: 2px;
+  border-style: solid;
+  border-color: #fa7268;
+  font-size: 11px;
+  transition: background-color 0.8s ease-out; }
+
+.btn-light-pink:hover {
+  font-family: 'Open Sans', sans-serif;
+  min-width: 100px;
+  min-height: 45px;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  background: #fa7268;
+  border-radius: 1000px;
+  outline: none;
+  border: 2px;
+  border-style: solid;
+  border-color: #fa7268;
+  color: #f1f1f1;
+  font-size: 11px;
+  cursor: pointer;
+  animation-name: animate__pulse;
+  animation-iteration-count: infinite;
+  animation-duration: 1250ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out; }
+
+/****LOGIN.HTML****/
+.container-login {
+  background: none;
+  background-size: cover;
+  height: 150vh;
+  display: flex;
+  flex-wrap: wrap; }
+  .container-login .text {
+    margin-left: 10%;
+    font-weight: 300px; }
+    .container-login .text .box {
+      margin-top: 45vh;
+      flex: 1;
+      margin-left: 25%; }
+    .container-login .text h1 {
+      font-size: 70px;
+      color: #f1f1f1;
+      font-weight: 500; }
+    .container-login .text p {
+      font-size: 20px;
+      color: #f1f1f1;
+      font-weight: 300; }
+      .container-login .text p a {
+        color: #f1f1f1;
+        font-weight: 700; }
+  .container-login .form {
+    background: transparent;
+    color: #f1f1f1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px; }
+
+input {
+  margin: 20px 0;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #f1f1f1;
+  font-family: 'Raleway', sans-serif; }
+
+.username, .password, .fullname, .email {
+  border-bottom: 1px solid #f1f1f1; }
+
+.button {
+  background: transparent;
+  border: 1px solid #f1f1f1;
+  color: #f1f1f1;
+  font-size: 18px;
+  border-radius: 1000px; }
+
+.button:hover {
+  background: #f1f1f1;
+  color: #000;
+  animation-name: animate__pulse;
+  animation-iteration-count: infinite;
+  animation-duration: 2550ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out; }
+
+/****BACKGROUND****/
+.background-body-index {
+  background-image: url(../../img/background/augustine-wong-T0BYurbDK_M-unsplash.jpg);
+  width: 100%; }
+
+.background-body-about {
+  background-image: url(../../img/background/scott-webb-IzEf59tJq5c-unsplash.jpg);
+  width: 100%; }
+
+.background-body-login {
+  background: url(../../img/background/noah-basle-kqB7IDljjMI.jpg);
+  background-size: cover; }
+
+/****ANIMATIONS*****/
+@keyframes animate__pulse {
+  0% {
+    transform: scaleX(1); }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05); }
+  to {
+    transform: scaleX(1); } }
